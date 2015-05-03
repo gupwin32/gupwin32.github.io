@@ -1,0 +1,25 @@
+---
+layout: default
+title: How it works
+---
+<div class="blurb">
+<h2>How WinGup works</h2>
+<p>
+	WinGup can be launched by your program or manually.<br />
+	It reads from a&nbsp;<a href="http://gup-w32.svn.sourceforge.net/viewvc/gup-w32/src/ConfigFiles/gup.xml?view=markup" target="_blank">xml configuration file</a>&nbsp;for getting the current version of your program and url where GUP gets&nbsp;<a href="http://gup-w32.svn.sourceforge.net/viewvc/gup-w32/src/ConfigFiles/gupReponseExample.xml?view=markup" target="_blank">update information</a>, checks the url (with given current version) to get the update package location, downloads the update package, then run the update package (it should be a msi or an exe) in question.</p>
+<p>
+	&nbsp;</p>
+<p>
+	<img alt="gup_howToWork.png" src="/images/gup_howToWork.png" style="width: 764px; height: 1066px;" /></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	So what do you need to use it?</p>
+<p>
+	A url to provide the update information to your GUP and an another url location to store your update package, that&#39;s it!</p>
+<p>	And then?</p>
+<p>
+	All you have to do is point GUP to your url update page (by modifying gup.xml), then work on your pointed url update page (see getDownLoadUrl.php comes with the release) to make sure it responds to your GUP with the correct xml data.</p>
+</div><!-- /.blurb -->
