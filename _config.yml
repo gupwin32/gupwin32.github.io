@@ -1,4 +1,4 @@
-name: WinGup
+name: WinGUp
 markdown: kramdown
 gems:
   - jekyll-sitemap

@@ -1,2 +1,2 @@
 # gupwin32.github.io
-WinGup website
+WinGUp website
